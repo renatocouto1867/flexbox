@@ -142,6 +142,93 @@ body {
     /*Fim    estilo menu*/
     
 
+
+form {
+    
+    margin: 30px auto;
+    width: 80%;
+    
+}
+
+label {
+    width: 70%;    
+    display: inline-block;
+    
+}
+
+input {
+    width: 70%;
+    padding: 6px;    
+}
+
+textarea {
+    width: 70%;
+    padding: 8px;
+}
+
+ul#contato {
+    list-style: none;
+
+}
+
+ul#m12 {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(79, 76, 76);
+    position: none;
+    top: 0;
+    width: 90%;
+}
+
+li#m3 {
+    float: left;
+}
+
+li#m3 a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li#m3 :active{
+    transform: translateY(5px);
+    padding: 16px 16px ;   
+}
+
+li#m3 a:hover {
+    color: rgb(17, 16, 16);
+    background-color: rgb(75, 251, 11);
+
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #145c97;
+    color: #F8F8FF;
+    font-size: 20px;
+    box-shadow: 0 10px #062c49;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008080;
+    color: #ece4e4;
+}
+
+button:active {
+    background-color: #6495ED;
+    box-shadow: 0 4px #363636;
+    border: 2px solid #000000;
+    transform: translateY(2px);
+}
+
 }
 
 @media screen  and (min-width: 320px)and (max-width: 801px){
