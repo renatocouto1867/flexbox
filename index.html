@@ -31,89 +31,94 @@
 
     </nav>
 
-
-
-    <Section>
+    <main id="pagina">
         <h1> Quem sou eu? </h1>
 
-        <img src="imagens/Perfil.jpg" alt="Foto Renato" style="height:200px; width: 200px; border-radius: 10%;">
+        <img id="fperfil" src="imagens/Perfil.jpg" alt="Foto Renato"
+            style="height:200px; width: 200px; border-radius: 10%;">
 
-        <p>Meu nome é Renato Couto, sou contador e estudante</p>
-        <p><q>Seja sustentável, recicle suas ideias!</q><cite> Renato Couto</cite></p>
-
-
-
-
-        <h2 id="hob">Meus Hobbies</h2>
-        <ol>
-            <li>Marcenaria</li>
-            <li>Ler noticias</li>
-            <p></p>
-            <a href="https://www.mundomarcenaria.com.br/" target="_blank">Mundo da Marcenaria</a>
-        </ol>
-
-
-        <h2 id="proj">Meus projetos</h2>
-        <ol>
-            <li>Curso Superior de Tecnologia em Sistemas Para Internet</li>
-            <li>Fazer uma atualização em Contabilidade</li>
-            <li>Fazer uma Pós graduação em Auditoria</li>
-            <li>Fazer Graduação em Direito</li>
-        </ol>
-    </section>
+        <Section di="p1">
+            <p>Meu nome é Renato Couto, sou contador e estudante</p>
+            <p><q>Seja sustentável, recicle suas ideias!</q><cite> Renato Couto</cite></p>
+        </section>
 
 
 
-    <section>
-        <h2 id="est">O que estou estudando atualmente</h2>
-        <table>
-            <CAption>Grade curricular</CAption>
-            <thead>
-                <th>Disciplinas</th>
-                <th>Codigo</th>
-                <th>Carga Horaria</th>
-                <th>Aulas Semanais</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td> <a href="fpb.html">Fundamentos e Projeto de Banco de Dados</a></td>
-                    <td>FPB</td>
-                    <td>72</td>
-                    <td>4</td>
-                </tr>
+        <section id="con2">
+            <h2 id="hob">Meus Hobbies</h2>
+            <ol>
+                <li>Marcenaria</li>
+                <li>Ler noticias</li>
+                <p></p>
+                <a href="https://www.mundomarcenaria.com.br/" target="_blank">Mundo da Marcenaria</a>
+            </ol>
+        </section>
 
-                <tr>
-                    <td><a href="ipg.html">Introdução à Programação</a></td>
-                    <td>IPG</td>
-                    <td>80</td>
-                    <td>4</td>
-                </tr>
+        <section id="con3">
+            <h2 id="proj">Meus projetos</h2>
+            <ol>
+                <li>Curso Superior de Tecnologia em Sistemas Para Internet</li>
+                <li>Fazer uma atualização em Contabilidade</li>
+                <li>Fazer uma Pós graduação em Auditoria</li>
+                <li>Fazer Graduação em Direito</li>
+            </ol>
+        </section>
 
-                <tr>
-                    <td><a href="pew.html">Programação Básica para Web</a></td>
-                    <td>PEW</td>
-                    <td>72</td>
-                    <td>4</td>
-                </tr>
 
-            </tbody>
-        </table>
-    </section>
+        <section id="estudo">
+            <h2 id="est">O que estou estudando atualmente</h2>
+            <table>
+                <CAption>Grade curricular</CAption>
+                <thead>
+                    <th>Disciplinas</th>
+                    <th>Codigo</th>
+                    <th>Carga Horaria</th>
+                    <th>Aulas Semanais</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <a href="fpb.html">Fundamentos e Projeto de Banco de Dados</a></td>
+                        <td>FPB</td>
+                        <td>72</td>
+                        <td>4</td>
+                    </tr>
 
-    <section>
-        <h1>Galeria de fotos</h1>
-        <img srcset="imagens/foto1-p.jpg 250w, imagens/foto1-m.jpg 400w,
+                    <tr>
+                        <td><a href="ipg.html">Introdução à Programação</a></td>
+                        <td>IPG</td>
+                        <td>80</td>
+                        <td>4</td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="pew.html">Programação Básica para Web</a></td>
+                        <td>PEW</td>
+                        <td>72</td>
+                        <td>4</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+
+        <h1 class="gal">Galeria de fotos</h1>
+
+        <section>
+
+            <img srcset="imagens/foto1-p.jpg 250w, imagens/foto1-m.jpg 400w,
          imagens/foto1-g.jpg 600w, imagens/foto1-full.jpg 700w" sizes="(max-width:320px) 250px, (max-width:600px) 400px,
          (max-width:800px) 600px, (max-width:1024px) 700px, 950px" alt="Foto Fernado de Noronha">
 
-        <img srcset="imagens/foto2-p.jpg 250w, imagens/foto2-m.jpg 400w, 
+            <img srcset="imagens/foto2-p.jpg 250w, imagens/foto2-m.jpg 400w, 
          imagens/foto2-g.jpg 600w, imagens/foto2-full.jpg 700w"
-            sizes="(max-width:320px) 250px, (max-width:600px) 400px,(max-width:800px) 600px, (max-width:1024px) 700px, 950px"
-            alt="Foto Fernado de Noronha">
-    </section>
+                sizes="(max-width:320px) 250px, (max-width:600px) 400px,(max-width:800px) 600px, (max-width:1024px) 700px, 950px"
+                alt="Foto Fernado de Noronha">
+        </section>
+    </main>
 
 
-    <section>
+    <section id="contato">
         <h2>Contato</h2>
 
         <ol type="1">
@@ -122,6 +127,7 @@
 
         <!-- Pagina criada em 19/11/2022 -->
     </section>
+
 
 </body>
 

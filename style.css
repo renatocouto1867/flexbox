@@ -11,154 +11,155 @@ body {
     font-size: 16px;
 }
 
-@media screen and (min-width: 320px) {
-
-    /*css celular*/
-    body {
-        font-family: arial, helvetica, sans-serif;
-        font-size: 1.3em;
-        background-color: #ebecee;
-    }
-
-    h1 {
-        background-color: #EB7B17;
-        font-size: 1.3em;
-        padding: 5px;
-        flex: 100%;
-    }
-
-    h2 {
-        background-color: #e09e64;
-        font-size: 1.2em;
-        padding: 5px;
-        flex: 100%;
-    }
-
-    h3 {
-        background-color: #e3ba95;
-        font-size: 1.1em;
-        padding: 5px;
-        flex: 100%;
-    }
-
-    p {
-        padding: auto;
-        margin: 5px;
-        flex: auto;
-    }
-
-    table,
-    tr,
-    td,
-    th {
-        border: solid 1px #259E2E;
-        border: 1px;
-        border-style: solid;
-        width: 80%;
-        padding: 1px;
-        border-collapse: collapse;
-
-    }
-
-    td {
-
-        width: auto;
-        height: auto;
-    }
-
-    th {
-        background-color: #060;
-        color: #FFF;
-        margin: 1px;
-        padding: 1px;
-    }
-
-    section {
-        display: flex;
-        flex-flow: row wrap;
-        margin: 2px;
-        padding: 5px
-    }
-    /*inicio menu*/
 
 
-    .menu li {
-        background-color: rgb(2, 66, 2);
-        float: left;
-        padding: 1rem;
-        text-decoration: none;
-        transition-duration: 0.5s;        
-        width: 100%;
-    }
+/*css celular*/
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.3em;
+    background-color: #ebecee;
+}
 
-    .menu li a {
-        color: white;
-        text-decoration: none;
-    }
+h1 {
+    background-color: #EB7B17;
+    font-size: 1.3em;
+    padding: 5px;
+    flex: 100%;
+}
 
-    .menu li ul {
-        visibility: hidden;
-        list-style: none ;
-        opacity: 0;
-        min-width: 1rem;
-        position: absolute;
-        transition: all 0.5s ease;
-        margin-top: 0.5rem;
-        left: 0;
-        display: none;
-        box-shadow: 0px 9px 16px 0px black;
-    }
+h2 {
+    background-color: #e09e64;
+    font-size: 1.2em;
+    padding: 5px;
+    flex: 100%;
+}
 
-    .menu li ul li {
-        margin-left: 0;
-        width: 100%;
-        background-color: rgb(5, 109, 5);
-    }
+h3 {
+    background-color: #e3ba95;
+    font-size: 1.1em;
+    padding: 5px;
+    flex: 100%;
+}
 
-    .menu li:hover,
-    .menu li:focus-within {
-        background-color: #22a7a7fd;
-        cursor: pointer;
-        font-weight: bold;
-        transition: 0.3s;
-    }
+p {
+    padding: auto;
+    margin: 5px;
+    flex: auto;
+}
 
-    .menu a:hover {
-        color: black;
-        /*cor da fonte quando passa o cursor*/
-    }
+table,
+tr,
+td,
+th {
+    border: solid 1px #259E2E;
+    border: 1px;
+    border-style: solid;
+    width: 80%;
+    padding: 1px;
+    border-collapse: collapse;
 
-    .menu li:hover>ul,
-    .menu li:focus-within>ul,
-    .menu li ul:hover,
-    .menu li ul:focus {
-        visibility: visible;
-        opacity: 1;
-        display: block;
-    }
+}
+
+td {
+
+    width: auto;
+    height: auto;
+}
+
+th {
+    background-color: #060;
+    color: #FFF;
+    margin: 1px;
+    padding: 1px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2px;
+    padding: 5px
+}
+
+/*inicio menu*/
 
 
-    /*Fim configuração menu Drop down*/
-    /*Fim    estilo menu*/
-    
+.menu li {
+    background-color: rgb(2, 66, 2);
+    float: left;
+    padding: 1rem;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    width: 100%;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li ul {
+    visibility: hidden;
+    list-style: none;
+    opacity: 0;
+    min-width: 1rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 0.5rem;
+    left: 0;
+    display: none;
+    box-shadow: 0px 9px 16px 0px black;
+}
+
+.menu li ul li {
+    margin-left: 0;
+    width: 100%;
+    background-color: rgb(5, 109, 5);
+}
+
+.menu li:hover,
+.menu li:focus-within {
+    background-color: #22a7a7fd;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: black;
+    /*cor da fonte quando passa o cursor*/
+}
+
+.menu li:hover>ul,
+.menu li:focus-within>ul,
+.menu li ul:hover,
+.menu li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+
+/*Fim configuração menu Drop down*/
+/*Fim    estilo menu*/
+
 
 
 form {
-    
+
     margin: 30px auto;
     width: 80%;
-    
+
 }
 
 label {
-    width: 70%;    
+    width: 70%;
     display: inline-block;
-    
+
 }
 
 input {
     width: 70%;
-    padding: 6px;    
+    padding: 6px;
 }
 
 textarea {
@@ -195,9 +196,10 @@ li#m3 a {
     padding: 14px 16px;
     text-decoration: none;
 }
-li#m3 :active{
+
+li#m3 :active {
     transform: translateY(5px);
-    padding: 16px 16px ;   
+    padding: 16px 16px;
 }
 
 li#m3 a:hover {
@@ -229,9 +231,9 @@ button:active {
     transform: translateY(2px);
 }
 
-}
 
-@media screen  and (min-width: 320px)and (max-width: 801px){
+
+@media screen and (max-width: 801px) {
 
     /*Inicio estilo menu*/
 
@@ -247,48 +249,12 @@ button:active {
         list-style: none;
         padding-left: 0;
         display: flex;
-        flex-flow: row wrap; 
+        flex-flow: row wrap;
     }
+
 }
 
-@media screen and (min-width: 801px) {
-
-    /*css tablet */
-    body {
-        font-family: arial, helvetica, sans-serif;
-        font-size: 1.2em;
-        background-color: #e1e7f3;
-    }
-
-    h1 {
-        background-color: #709573;
-        padding: 5px;
-        flex: 320px;
-    }
-
-    h2 {
-        background-color: #809782;
-        font-size: 1.1em;
-        padding: 5px;
-        flex: 320px;
-    }
-
-    h3 {
-        background-color: #869187;
-        font-size: 1em;
-        padding: 5px;
-        flex: 320px;
-    }
-
-    p {
-        padding: auto;
-        margin: 5px;
-        flex: 320px;
-    }
-}
-
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 802px) {
 
     /*css notebook */
     body {
@@ -330,10 +296,11 @@ button:active {
         display: flex;
         flex-flow: line wrap;
     }
+
     .menu li ul {
-        list-style: none ;
+        list-style: none;
         visibility: hidden;
-        opacity: 0;       
+        opacity: 0;
         position: absolute;
         transition: all 0.5s ease;
         margin-top: 0.5rem;
@@ -342,11 +309,72 @@ button:active {
         width: 325px;
         box-shadow: 0px 9px 16px 0px black;
     }
+
     .menu li ul li {
-        margin-left: 0;        
-        width: 100%;        
+        margin-left: 0;
+        width: 100%;
         background-color: rgb(5, 109, 5);
     }
+
+
+    #pagina {
+        display: grid;
+        grid-template-areas: "cab cab"
+            "con con1"
+            "con2 con3"
+            "rod rod"
+            "gal gal";
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+
+    #pagina h1 {
+        grid-area: cab;
+        text-align: center;
+    }
+
+    #pagina #fperfil {
+        grid-area: con;
+        display: flex;
+        flex: auto;
+
+    }
+
+    #pagina #p1 {
+        grid-area: con1;
+    }
+
+
+    #pagina #con2 {
+        grid-area: con2;
+
+    }
+
+    #pagina #con3 {
+        grid-area: con3;
+        
+    }
+
+    #pagina #estudo {
+        grid-area: rod;                
+        text-align: center;
+        
+    }
+    
+    
+    #pagina .gal {
+        grid-area: gal;       
+               
+    }
+
+  
+
+    #pagina #estudo table {
+        margin: 3px;
+         flex: auto;
+         
+     }
 
 }
 
